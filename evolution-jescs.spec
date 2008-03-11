@@ -1,23 +1,23 @@
 Summary:	Evolution Connector for Sun Java Enterprise System Calendar Server (SJESCS)
 Summary(pl.UTF-8):	Evolution Connector dla Sun Java Enterprise System Calendar Server (SJESCS)
 Name:		evolution-jescs
-Version:	2.21.91
+Version:	2.22
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/evolution-jescs/2.21/%{name}-%{version}.tar.bz2
-# Source0-md5:	26280e23a599b2a123c0860c7d63e968
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/evolution-jescs/2.22/%{name}-%{version}.tar.bz2
+# Source0-md5:	a0d7c00e83e40f02d12645259ef366dc
 URL:		http://www.go-evolution.org/Evolution_JESCS
-BuildRequires:	GConf2-devel >= 2.21.90
+BuildRequires:	GConf2-devel >= 2.22.0
 BuildRequires:	autoconf >= 2.52
 BuildRequires:	automake
-BuildRequires:	evolution-devel >= 2.21.91
+BuildRequires:	evolution-devel >= 2.22.0
 BuildRequires:	gettext-devel
 BuildRequires:	gtk-doc
 BuildRequires:	intltool >= 0.36.0
 BuildRequires:	libglade2-devel >= 1:2.6.2
-BuildRequires:	libgnomeui-devel >= 2.21.92
-BuildRequires:	libsoup-devel >= 2.3.0.1
+BuildRequires:	libgnomeui-devel >= 2.22.0
+BuildRequires:	libsoup-devel >= 2.4.0
 BuildRequires:	libtool
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
