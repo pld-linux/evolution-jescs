@@ -1,12 +1,12 @@
 Summary:	Evolution Connector for Sun Java Enterprise System Calendar Server (SJESCS)
 Summary(pl.UTF-8):	Evolution Connector dla Sun Java Enterprise System Calendar Server (SJESCS)
 Name:		evolution-jescs
-Version:	2.22
+Version:	2.22.2
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/evolution-jescs/2.22/%{name}-%{version}.tar.bz2
-# Source0-md5:	a0d7c00e83e40f02d12645259ef366dc
+# Source0-md5:	f11a85739539ded6ae70aeeb86fe6dd9
 URL:		http://www.go-evolution.org/Evolution_JESCS
 BuildRequires:	GConf2-devel >= 2.22.0
 BuildRequires:	autoconf >= 2.52
